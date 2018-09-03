@@ -1,4 +1,8 @@
 body {
-    /* background-image: */
-    font-family: courier;
+    background-image: url(https://i.pinimg.com/originals/14/83/48/148348466cbd6f6241a025a62e44202c.gif);
+    background-size: 50%;
+    background-size: 3.2em;
+    background-size: 12px;
+    background-size: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
