@@ -1,8 +1,140 @@
+/* General Page Setup */
+*   {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+
+
 body {
-    background-image: url(https://i.pinimg.com/originals/14/83/48/148348466cbd6f6241a025a62e44202c.gif);
-    background-size: 50%;
-    background-size: 3.2em;
-    background-size: 12px;
-    background-size: auto;
+    background-image: url(https://media.giphy.com/media/3o6Ztp7WyY2Wvm5sUE/giphy.gif);
+    background-size: cover;
+    background-position: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* These are global for both main content sections */
+section {
+    background-color: coral;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article {
+    background-color: lightseagreen;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+article h3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* This is for the header and navbar */
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+
+}
+
+nav {
+    flex: 1;
+    /* display: inline; */
+    background-color: lightseagreen;
+    border: 1px black solid;
+    display: flex;
+    flex-flow: row;
+    
+    
+}
+
+/* ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+} */
+
+/* .headermenu li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+} */
+
+.welcome {
+    flex: 2;
+}
+
+/* This is the first section of content */
+.intro-1 {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.early-1 {
+    flex: 1;
+    align-items: center;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+}
+
+.early-2{
+    flex: 1;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+}
+
+.early-3 {
+    flex: 1;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+}
+/* This is the second section of content */
+.intro-2 {
+    display: flex;
+    flex-basis: 30%;
+    
+}
+
+.adult-1 {
+    flex: 1;
+    align-items: center;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+}
+
+.adult-2{
+    flex: 1;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+}
+
+.adult-3 {
+    flex: 1;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 1%;
+}
+
+/* This is for the footer section */
+footer {
+
 }
