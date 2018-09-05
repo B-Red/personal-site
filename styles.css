@@ -40,7 +40,6 @@ article h3 {
 /* This is for the header and navbar */
 header {
     display: flex;
-    flex-direction: row;
     background-color: coral;
     border: 1px black solid;
     padding: 10px;
@@ -50,28 +49,28 @@ header {
 
 nav {
     flex: 1;
-    /* display: inline; */
     background-color: lightseagreen;
     border: 1px black solid;
     display: flex;
-    flex-flow: row;
+    justify-content: space-evenly;
     
     
 }
 
-/* ul {
+ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex: auto;
 
-} */
+}
 
-/* .headermenu li {
+.headermenu li {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
-} */
+    flex: auto;
+    align-content: center;
+    margin: 1%;
+    padding: 5px;
+}
 
 .welcome {
     flex: 2;
@@ -136,5 +135,13 @@ nav {
 
 /* This is for the footer section */
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    /* border: 1px black solid; */
+    padding: 10px;
+    margin: 1%;
 
 }
