@@ -1,14 +1,11 @@
-/* This is the general setup */
-
-
 body {
     background-image: url(https://i.imgur.com/nWyAxRR.jpg);
     background-size: cover;
     background-position: center;
     font-family: cursive;
     text-align: center;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -18,24 +15,24 @@ body {
     max-width: 960px;
     margin: 0 auto;
     grid-gap: 10px;
-    grid-template-areas: 
-    " . header header ."
-    "v1 v1 . ."
-    "v1 v1 v2 v2"
-    ". . v2 v2"
-    ". v3 v3 ."
-    "v4 v4 . ."
-    ". v5 v5 ."
-    ". . v6 v6"
-    ". v7 v7 ."
-    ". v7 v7 ."
-    "v8 v8 . ."
-    "v8 v8 v9 v9"
-    ". . v9 v9"
-    "footer footer footer footer";
+    grid-template-areas:
+        " . header header ."
+        "v1 v1 . ."
+        "v1 v1 v2 v2"
+        ". . v2 v2"
+        ". v3 v3 ."
+        "v4 v4 . ."
+        ". v5 v5 ."
+        ". . v6 v6"
+        ". v7 v7 ."
+        ". v7 v7 ."
+        "v8 v8 . ."
+        "v8 v8 v9 v9"
+        ". . v9 v9"
+        "footer footer footer footer";
 }
 
-.content > * {
+.content>* {
     background: lightgrey;
     padding: 20px;
 }
@@ -45,39 +42,39 @@ header {
 }
 
 .v1 {
-    grid-area: v1; 
+    grid-area: v1;
 }
 
 .v2 {
-    grid-area: v2; 
+    grid-area: v2;
 }
 
 .v3 {
-    grid-area: v3; 
+    grid-area: v3;
 }
 
 .v4 {
-    grid-area: v4; 
+    grid-area: v4;
 }
 
 .v5 {
-    grid-area: v5; 
+    grid-area: v5;
 }
 
 .v6 {
-    grid-area: v6; 
+    grid-area: v6;
 }
 
 .v7 {
-    grid-area: v7; 
+    grid-area: v7;
 }
 
 .v8 {
-    grid-area: v8; 
+    grid-area: v8;
 }
 
 .v9 {
-    grid-area: v9; 
+    grid-area: v9;
 }
 
 footer {
